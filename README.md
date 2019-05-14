@@ -1,7 +1,10 @@
 # AWS Temporary IP Permissions for Security Groups
-Quick-n-dirty repo that allows you to temporarily add an IP address to a declared list of security groups.
+Quick-n-dirty repo that allows you to temporarily add an IP address to a declared list of security groups. This will help with cloud administration/development if you're working from a mobile location (i.e. a laptop, phone)
 
-Shouldn't be dangerous, but just be warned that this won't be an actively developed repository, so any bugs/quirks may not be updated. Feel free to fork for your own use however! Sure beats typing all of this in manually/having to go into the console, IMO.
+**NOTE** This code shouldn't be dangerous, but just be warned that this was created for my personal use. It likely won't be an actively developed repository, so any bugs/quirks may not be updated. Feel free to fork for your own use however! Sure beats typing all of this in manually, or having to go into the AWS console and manually manage your IP permissions for your security groups.
+
+### Requirements
+You'll need to have the AWS CLI installed, which will also require Python3. You'll also need to configure the AWS CLI for your AWS account.
 
 You can either clone the repo, or you can `npm install -g aws-ip-temp-permissions`, and then use it from the command line.
 
